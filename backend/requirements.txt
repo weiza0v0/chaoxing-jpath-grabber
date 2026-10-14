@@ -1,0 +1,11 @@
+# 本项目零第三方依赖，只需要 Python 3.8+ 的标准库：
+#
+#   http.server   接收器
+#   zlib / struct 解析 PNG，无损嵌入 PDF
+#   subprocess    拼装 PDF 时起子进程
+#   json / re / os
+#
+# 所以这里没有内容。`pip install -r requirements.txt` 会成功但什么都不装。
+#
+# 唯一可能用到的外部工具是图形化验证（可选），不是运行必需的：
+#   pip install pymupdf    # 只为打开 PDF 做校验，不装也能用

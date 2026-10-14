@@ -1,0 +1,24 @@
+# 抓取产物（用户数据，不入库）
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+runtime/
+
+# dist 构建产物（解释器 10MB + zip，都不入库，由 dist/build-win.sh 生成）
+
+dist/cache/
+dist/build/
+dist/out/
